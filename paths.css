@@ -16,26 +16,32 @@ header {
 }
 
 main {
+  
   padding: 1rem 2rem;
   max-width: 800px;
   margin: auto;
 }
 
-.notice {
+p {
+
+  clear: both;
+  overflow: auto;
+  
+}
+
+p>img {
+  
+  float: left;
+  width: 150px;
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  
+}
+
+.notice{
   padding: 1rem;
   background-color: #bada55;
   color: #222;
   font-weight: 700;
 }
 
-p {
-  clear: both;
-  overflow: auto;
-}
-
-p>img {
-  float: left;
-  width: 150px;
-  height: auto;
-  margin: 0 1rem 1rem 0;
-}
